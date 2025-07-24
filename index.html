@@ -3,16 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/298a2e2821.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Flower Market</title>
   </head>
   <body class="bg-primary">
-    <header>
-      <nav>
+    <header class="inter-normal">
+      <nav class="nav-bar">
         <div class="nav-icon">
-          
+          <img src="./assets/logo.png" alt="" />
         </div>
-        <div class="nav-menu"></div>
+        <div class="nav-list">
+          <p class="nav-text">Home</p>
+          <p class="nav-text">Shop</p>
+          <p class="nav-text">About us</p>
+          <p><i class="fa-solid fa-cart-shopping"></i> Cart($56)</p>
+        </div>
       </nav>
+      <div class="banner">
+        <div class="banner-text">
+          <h1 class="banner-title noto-serif-normal">
+            ALWAYS <span class="heading-1">FRESH</span> <br />
+            <span class="heading-1">FLOWERS</span>
+          </h1>
+          <p class="banner-description inter-normal">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <div class="banner-img">
+          <img src="./assets/hero-flower.png" alt="" />
+        </div>
+      </div>
     </header>
   </body>
 </html>
