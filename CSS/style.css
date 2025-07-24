@@ -76,6 +76,7 @@ header {
 .banner {
   display: flex;
   align-items: center;
+  margin-bottom: 14rem;
 }
 
 .banner-description {
