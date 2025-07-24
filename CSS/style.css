@@ -41,11 +41,16 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .nav-bar {
-  margin: 1.875rem 9.375rem 7.5rem 9.375rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 7.5rem;
 }
 
 .nav-item {
@@ -69,7 +74,6 @@ body {
 /* Banner */
 
 .banner {
-  margin: 7.5rem 8rem 14.125rem 8rem;
   display: flex;
   align-items: center;
 }
@@ -86,4 +90,14 @@ body {
 .banner-title {
   font-size: 4rem;
   font-weight: 700;
+}
+/* Responsive */
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .nav-text {
+    visibility: hidden;
+  }
 }
